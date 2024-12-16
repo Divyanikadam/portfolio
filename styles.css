@@ -1,0 +1,117 @@
+/* General styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 250px; /* Sets the width */
+    height: 400px; /* Sets the height, making the image oval */
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 20px auto; /* Centers the image horizontally */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow effect */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    border-radius: 50%; /* Creates an oval shape */
+    border: 5px solid #000; /* Adds a 5px solid black border around the image */
+}
+
+
+.contact-links {
+    margin: 20px 0;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.contact-link.email {
+    background-color: #dd4b39;
+}
+
+.contact-link.linkedin {
+    background-color: #0e76a8;
+}
+
+.contact-link:hover {
+    background-color: #0056b3;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #f9620b, #831bcd);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
